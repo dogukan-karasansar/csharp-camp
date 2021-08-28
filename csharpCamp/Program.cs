@@ -11,6 +11,10 @@ namespace csharpCamp
             {
                 Console.WriteLine(cars[i]);
             }
+            foreach(string car in cars)
+            {
+                Console.WriteLine(car);
+            }
         }
     }
 }
