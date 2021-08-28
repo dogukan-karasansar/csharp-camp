@@ -6,11 +6,9 @@ namespace csharpCamp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Darling");
-            //console write and writeline
-            Console.Write("Hello World");
-            Console.Write("Darling");
+            string name = "Doğukan";
+            int age = 19;
+            Console.WriteLine("Hello " + name + "and I "+age+" years old");
         }
     }
 }
