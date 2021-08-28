@@ -4,17 +4,34 @@ namespace csharpCamp
 {
     class MainClass
     {
+        public static bool CalculateLicense(int age)
+        {
+            bool status;
+            
+            if(age >= 18)
+            {
+                status = true;
+            } else
+            {
+                status = false;
+            }
+            return status;
+        }
+
         public static void Main(string[] args)
         {
-            string[] cars = { "bmw", "opel", "mercedes" };
-            for(int i = 0; i < cars.Length; i++)
+            int age;
+            Console.WriteLine("Yaşınızı Girin: ");
+            age = Convert.ToInt32(Console.ReadLine());
+            if (CalculateLicense(age))
             {
-                Console.WriteLine(cars[i]);
-            }
-            foreach(string car in cars)
+                Console.WriteLine("Ehliyet Alabilir");
+            } else
             {
-                Console.WriteLine(car);
+                Console.WriteLine("Ehlitey Alamaz");
             }
+            
+           
         }
     }
 }
