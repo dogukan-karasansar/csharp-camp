@@ -1,0 +1,6 @@
+/Users/dogukankarasansar/projects/csharpCamp/csharpCamp/bin/Debug/csharpCamp.exe
+/Users/dogukankarasansar/projects/csharpCamp/csharpCamp/bin/Debug/csharpCamp.pdb
+/Users/dogukankarasansar/projects/csharpCamp/csharpCamp/obj/Debug/csharpCamp.csproj.AssemblyReference.cache
+/Users/dogukankarasansar/projects/csharpCamp/csharpCamp/obj/Debug/csharpCamp.csproj.CoreCompileInputs.cache
+/Users/dogukankarasansar/projects/csharpCamp/csharpCamp/obj/Debug/csharpCamp.exe
+/Users/dogukankarasansar/projects/csharpCamp/csharpCamp/obj/Debug/csharpCamp.pdb
