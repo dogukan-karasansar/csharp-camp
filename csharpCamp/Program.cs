@@ -6,9 +6,17 @@ namespace csharpCamp
     {
         public static void Main(string[] args)
         {
-            string name = "Doğukan";
+            /*string name = "Doğukan";
             int age = 19;
-            Console.WriteLine("Hello " + name + "and I "+age+" years old");
+            bool testBool = true;
+            char d = 'd';
+            double newDouble = 5.99;
+            Console.WriteLine("Hello " + name + " and I "+age+" years old");*/
+
+            double num = 42.5;
+
+            Console.WriteLine(Convert.ToInt32(num));
+
         }
     }
 }
